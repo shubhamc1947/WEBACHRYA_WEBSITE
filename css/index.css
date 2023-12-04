@@ -1,0 +1,125 @@
+/* navbar css */
+body{
+    position: relative;
+    --primary-color:orange;
+    --primary-text:aliceblue;
+    
+}
+header{
+    width: 100%;
+    background-color: transparent;
+    position:fixed;
+    top:0;
+    left:0;
+    right: 0;
+    color:aliceblue;
+}
+.header-wrap{
+    max-width: 1200px;
+    height: 70px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-wrap>div>a{
+    color:aliceblue;
+}
+.left-nav{
+    font-size: 2rem;
+}
+.right-nav{
+
+}
+
+/* hero section css */
+
+.hero_wrap{
+    height: 100vh;
+
+    background: rgb(117,112,191);
+    background: linear-gradient(90deg, rgba(117,112,191,1) 0%, rgba(82,82,222,1) 0%, rgba(46,99,110,1) 100%);
+    background-image: url('../img/herobg2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-hero{
+    color:aliceblue;
+}
+.left-hero-head{
+    font-size: 4rem;
+}
+.right-hero{
+    margin-top:4rem;
+}
+.right-hero>img{
+    width: 40vw;
+    animation: heroSpin 15s linear 0.5s infinite alternate;
+}
+/* The animation right-hero>img  */
+@keyframes heroSpin {
+    /* 0%   {
+        transform: rotate(0deg);
+        transform: translateX(0);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+        transform: translateX(5);
+    } */
+    0% {
+        transform: rotate(0deg) translateX(0);
+    }
+
+    25% {
+        transform: rotate(-5deg) translateX(2px);
+    }
+
+    50% {
+        transform: rotate(5deg) translateX(-2px);
+    }
+
+    75% {
+        transform: rotate(-5deg) translateX(2px);
+    }
+
+    100% {
+        transform: rotate(5deg) translateX(-2px);
+    }
+}
+
+/* about css */
+.about{
+    /* margin-top:5rem; */
+    max-width: 1200px;
+    margin:3rem auto;
+}
+.about-head{
+    font-size: 3rem;
+    text-align: center;
+}
+.about-cont{
+    display: flex;
+    justify-content: space-between;
+    /* text-align: justify; */
+}
+.left-about-cont{
+    /* width:50%; */
+}
+.right-about-cont{
+    padding-left:4rem;
+    text-align: justify;
+}
+.right-about-cont>div{
+    padding-left:2rem;
+    font-size: 1.3rem;
+}
+.values>.values-head{
+    font-size: 1.7rem;
+}

@@ -1,0 +1,109 @@
+/* font awesome  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Poppins:ital@0;1&family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* text align css */
+.sc_t_center{
+    text-align: center;
+}
+.sc_t_right{
+    text-align:right;
+}
+.sc_t_justify{
+    text-align: justify;
+}
+/* flex css */
+.sc_d_flex{
+    display: flex;
+}
+.sc_d_flex_center{
+    display: flex;
+    justify-content: center;
+}
+.sc_d_flex_between{
+    display: flex;
+    justify-content: space-between;
+}
+.sc_d_flex_around{
+    display: flex;
+    justify-content: space-around;
+}
+.sc_d_flex_evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sc_d_flex_center_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* height css */
+.sc_h_100{
+    height: 100vh;
+}
+
+/* border css */
+.sc_boder{
+    border:1px solid #333;
+}
+.sc_border_bottom{
+    border-bottom:1px solid #333;
+}
+
+.sc_boder_light{
+    border:1px solid #fff;
+}
+.sc_border_bottom_light{
+    border-bottom:1px solid white;
+}
+
+/* color css */
+.sc_text_red{
+    color:red;
+}
+.sc_text_blue{
+    color:blue;
+}
+
+
+
+/* scroll bar css */
+
+/* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #888; 
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+    }
